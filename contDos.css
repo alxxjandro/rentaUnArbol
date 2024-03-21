@@ -1,0 +1,16 @@
+.contDos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.textContDos{
+    border: solid 1px red;
+    height: 200px;
+    flex: 2;
+}
+
+.imgContDos{
+    border: solid 1px blue;
+    flex: 3;
+    height: 200px;
+}
