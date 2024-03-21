@@ -1,13 +1,23 @@
-body{
-    height: 100vh;
-    box-sizing: border-box;
+*{
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 5000px;
+    box-sizing: border-box;
 }
 
 .header{
     display: flex;
+    position: fixed;
+    width: 100%;
     justify-content: space-around;
     border: solid 1px red;
+}
+
+.logo{
+    width: 100px;
 }
 
 .name{
