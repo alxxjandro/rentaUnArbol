@@ -8,34 +8,77 @@ body{
     box-sizing: border-box;
 }
 
+.header,
+.btn{
+    background-color: #76885B;
+    color: white;
+}
+
 .header{
     display: flex;
     position: fixed;
     width: 100%;
+    height: 80px;
     justify-content: space-around;
-    border: solid 1px red;
 }
 
 .logo{
-    width: 100px;
+    width: 80px;
 }
 
 .name{
-    border: solid 1px green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    font-weight: bold;
+    flex: 1;
+}
+
+.name p{
+    cursor: pointer;
 }
 
 .botonesInfo{
-    border: solid 1px blue;
     display: flex;
+    align-items: center;
+    flex: 2;
+    justify-content: space-between;
+    max-width: 300px;
 }
 
 .botonesLogIn{
-    border: solid 1px green;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
 }
 
 .btn{
     border: none;
-    background-color: white;
     font-size: 16px;
+    cursor: pointer;
+}
+
+.reg{
+    margin-left: 20px;
+    border-radius: 8px;
+    background-color: #DDDDDD;
+    color: black;
+    height: 50px;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-radius: 8px;
+
+    transition: color .2s ease;
+    transition: background-color .4s ease;
+}
+
+.btn:hover{
+    background-color: #DDDDDD;
+    color: black;
 }
