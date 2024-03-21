@@ -1,0 +1,31 @@
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    border: solid 1px red;
+}
+
+.name{
+    border: solid 1px green;
+}
+
+.botonesInfo{
+    border: solid 1px blue;
+    display: flex;
+}
+
+.botonesLogIn{
+    border: solid 1px green;
+    display: flex;
+}
+
+.btn{
+    border: none;
+    background-color: white;
+    font-size: 16px;
+}
