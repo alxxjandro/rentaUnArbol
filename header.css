@@ -62,6 +62,7 @@ body{
 }
 
 .reg{
+    margin-right: 10px;
     margin-left: 20px;
     border-radius: 8px;
     background-color: #DDDDDD;
