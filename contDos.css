@@ -6,7 +6,6 @@
 }
 
 .textContDos{
-    border: solid 1px red;
     flex: 2;
     display: flex;
     flex-direction: column;
@@ -40,7 +39,6 @@
 }
 
 .imgContDos{
-    border: solid 1px blue;
     flex: 1;
 
     display: flex;
@@ -53,10 +51,11 @@
 }
 
 .slotimg{
-    min-height: 260px;
+    min-height: 240px;
     max-height: 260px;
 
-    min-width: 260px;
+    min-width: 240px;
     max-width: 260px;
     object-fit: cover;
+    border-radius: 8px;
 }
