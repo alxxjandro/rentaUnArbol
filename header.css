@@ -20,6 +20,7 @@ body{
     width: 100%;
     height: 80px;
     justify-content: space-around;
+    z-index: 1;
 }
 
 .logo{
@@ -64,8 +65,27 @@ body{
     margin-left: 20px;
     border-radius: 8px;
     background-color: #DDDDDD;
-    color: black;
+    color: rgb(0, 0, 0);
     height: 50px;
+}
+
+.btnreg{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-radius: 8px;
+
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+
+    transition: color .6s ease;
+    transition: background-color .4s ease;
+}
+
+.btnreg:hover{
+    color: white;
+    background-color: #76885B;
 }
 
 .btn{
