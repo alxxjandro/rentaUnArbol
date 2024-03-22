@@ -1,0 +1,31 @@
+.contTres{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.contCamiseta{
+
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(61, 61, 61);
+}
+
+.textoCont3{
+
+    min-width: 180px;
+    min-height: 200px;
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(61, 61, 61);
+}
+
+.camiseta{
+    min-height: 200px;
+    max-height: 400px;
+}
