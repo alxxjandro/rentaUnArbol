@@ -1,0 +1,38 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .contCuatro{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  .contCuatro img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .title {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  body {
+    text-align: center;
+  }
+  
+  .title {
+    margin-bottom: 32px;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 52px;
+  }
+  
+  .info {
+    max-width: 200px;
+  }
+  
