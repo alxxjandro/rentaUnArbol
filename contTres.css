@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: center;
-    background-color: rgb(61, 61, 61);
+    background-color:rgb(26, 26, 26);
 }
 
 .contCamiseta{
@@ -10,7 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(61, 61, 61);
+    background-color:rgb(26, 26, 26);
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -27,7 +27,7 @@
     text-align: center;
     max-width: 400px;
     color: white;
-    background-color: rgb(61, 61, 61);
+    background-color: rgb(26, 26, 26);
     font-size: 30px;
     padding-top: 10px;
 }
